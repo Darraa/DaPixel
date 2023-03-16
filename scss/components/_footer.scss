@@ -1,0 +1,32 @@
+.footer{
+    justify-content: space-around;
+    padding: 5%;
+    &__contact{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        
+        &-social{
+            display: flex;
+            gap: 20px;
+        }
+    }
+
+    &__info{
+        width: 35%;
+        display: flex;
+        gap: 40%;
+
+        h4{
+            font-weight: 700;
+            color: #000;
+            padding-bottom: 15px;
+        }
+    }
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    opacity: 0.5;
+}

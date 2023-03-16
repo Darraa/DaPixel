@@ -1,0 +1,33 @@
+.articles {
+    gap: 40px;
+
+    &__item {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        background: #DFA762;
+        box-shadow: 0px 69px 114px rgba(124, 20, 253, 0.08);
+        border-radius: 30px;
+        padding: 50px 40px;
+        width: 30%;
+
+        p {
+            font-size: 14px;
+            color: #fff;
+            opacity: 0.5;
+        }
+
+        button {
+            align-self: flex-start;
+            background-color: #fff;
+            color: #000;
+            font-weight: 700;
+            font-size: 14px;
+            padding: 15px 30px;
+        }
+    }
+
+    &__item:nth-child(3) {
+        width: 36%;
+    }
+}
