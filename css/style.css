@@ -1,18 +1,85 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
 @font-face {
-  font-family: "main";
+  font-family: "HKGrotesk";
   src: url("../../fonts/HKGrotesk-Bold.otf");
 }
 body {
-  font-family: "main";
+  font-family: "HKGrotesk";
   font-weight: normal;
 }
 
 @font-face {
-  font-family: "title";
+  font-family: "ProductSans";
   src: url("../../fonts/ProductSans-Regular.ttf");
 }
 h1 {
-  font-family: "title";
+  font-family: "ProductSans";
   font-weight: 700;
   font-size: 76px;
   line-height: 115.7%;
@@ -20,7 +87,7 @@ h1 {
 }
 
 h2 {
-  font-family: "title";
+  font-family: "ProductSans";
   font-weight: 700;
   font-size: 64px;
   line-height: 128.3%;
@@ -28,13 +95,14 @@ h2 {
 }
 
 h3 {
-  font-family: "title";
+  font-family: "ProductSans";
   font-weight: 700;
   font-size: 52px;
   line-height: 137.2%;
 }
 
 h4 {
+  font-family: "ProductSans";
   font-weight: 700;
   font-size: 24px;
   letter-spacing: -1px;
@@ -251,7 +319,7 @@ button {
 }
 .competentions__item-content span,
 .competentions__wrapper__item-content span {
-  font-family: "title";
+  font-family: "ProductSans";
   font-weight: 700;
   font-size: 36px;
   line-height: 137.2%;
@@ -458,7 +526,7 @@ button {
   outline: rgba(0, 0, 0, 0);
   border-radius: 1rem;
   border: 1px solid rgba(33, 33, 33, 0.2);
-  font-family: "title";
+  font-family: "ProductSans";
 }
 .modal__form-field textarea {
   height: 20%;

@@ -1,20 +1,20 @@
 @font-face {
-    font-family: 'main';
+    font-family: 'HKGrotesk';
     src: url('../../fonts/HKGrotesk-Bold.otf');
 }
 
 body {
-    font-family: 'main';
+    font-family: 'HKGrotesk';
     font-weight: normal;
 }
 
 @font-face {
-    font-family: 'title';
+    font-family: 'ProductSans';
     src: url('../../fonts/ProductSans-Regular.ttf');
 }
 
 h1 {
-    font-family: 'title';
+    font-family: 'ProductSans';
     font-weight: 700;
     font-size: 76px;
     line-height: 115.7%;
@@ -22,7 +22,7 @@ h1 {
 }
 
 h2 {
-    font-family: 'title';
+    font-family: 'ProductSans';
     font-weight: 700;
     font-size: 64px;
     line-height: 128.3%;
@@ -30,13 +30,14 @@ h2 {
 }
 
 h3 {
-    font-family: 'title';
+    font-family: 'ProductSans';
     font-weight: 700;
     font-size: 52px;
     line-height: 137.2%;
 }
 
 h4 {
+    font-family: 'ProductSans';
     font-weight: 700;
     font-size: 24px;
     letter-spacing: -1px;
