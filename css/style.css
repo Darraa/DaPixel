@@ -67,7 +67,7 @@ h6 {
 
 @font-face {
   font-family: "HKGrotesk";
-  src: url("../../fonts/HKGrotesk-Bold.otf");
+  src: url("../fonts/HKGrotesk-Bold.otf");
 }
 body {
   font-family: "HKGrotesk";
@@ -76,7 +76,7 @@ body {
 
 @font-face {
   font-family: "ProductSans";
-  src: url("../../fonts/ProductSans-Regular.ttf");
+  src: url("../fonts/ProductSans-Regular.ttf");
 }
 h1 {
   font-family: "ProductSans";
