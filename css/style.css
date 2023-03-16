@@ -1,3 +1,46 @@
+@font-face {
+  font-family: "main";
+  src: url("../../fonts/HKGrotesk-Bold.otf");
+}
+body {
+  font-family: "main";
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "title";
+  src: url("../../fonts/ProductSans-Regular.ttf");
+}
+h1 {
+  font-family: "title";
+  font-weight: 700;
+  font-size: 76px;
+  line-height: 115.7%;
+  letter-spacing: -0.015em;
+}
+
+h2 {
+  font-family: "title";
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 128.3%;
+  color: #FFFFFF;
+}
+
+h3 {
+  font-family: "title";
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 137.2%;
+}
+
+h4 {
+  font-weight: 700;
+  font-size: 24px;
+  letter-spacing: -1px;
+  color: #FFFFFF;
+}
+
 * {
   margin: 0px;
   padding: 0px;
@@ -51,49 +94,6 @@ button {
   color: #fff;
   padding: 20px 55px;
   cursor: pointer;
-}
-
-@font-face {
-  font-family: "main";
-  src: url("../../fonts/HKGrotesk-Bold.otf");
-}
-body {
-  font-family: "main";
-  font-weight: normal;
-}
-
-@font-face {
-  font-family: "title";
-  src: url("../../fonts/ProductSans-Regular.ttf");
-}
-h1 {
-  font-family: "title";
-  font-weight: 700;
-  font-size: 76px;
-  line-height: 115.7%;
-  letter-spacing: -0.015em;
-}
-
-h2 {
-  font-family: "title";
-  font-weight: 700;
-  font-size: 64px;
-  line-height: 128.3%;
-  color: #FFFFFF;
-}
-
-h3 {
-  font-family: "title";
-  font-weight: 700;
-  font-size: 52px;
-  line-height: 137.2%;
-}
-
-h4 {
-  font-weight: 700;
-  font-size: 24px;
-  letter-spacing: -1px;
-  color: #FFFFFF;
 }
 
 .header {
