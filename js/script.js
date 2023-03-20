@@ -41,3 +41,15 @@ function closeModal() {
 function closeNotification() {
     notification.classList.remove("notification__active");
 }
+
+
+// Order button
+
+const orderMeeting = document.querySelector('.meeting__order-btn');
+
+orderMeeting.addEventListener('click', () =>{
+    notification.classList.add("notification__active");
+    notificationClose.addEventListener("click", () =>
+        closeNotification()
+    );
+})

@@ -11,6 +11,11 @@
         gap: 40px;
     }
 
+    .item:hover{
+        transition: 0.3s;
+        transform: translateY(-2px);
+    }
+
     &__btn{
         padding: 14px 30px;
         color: #F9BC6E;
