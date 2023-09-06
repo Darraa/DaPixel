@@ -1,32 +1,51 @@
-.footer{
+.footer {
     justify-content: space-around;
     padding: 5%;
-    &__contact{
+
+    &__contact {
         display: flex;
         flex-direction: column;
         gap: 40px;
-        
-        &-social{
+
+        &-social {
             display: flex;
             gap: 20px;
         }
     }
 
-    &__info{
+    &__info {
         width: 35%;
         display: flex;
         gap: 40%;
 
-        h4{
+        h4 {
             font-weight: 700;
             color: #000;
             padding-bottom: 15px;
         }
     }
 }
-.list{
+
+.list {
     display: flex;
     flex-direction: column;
     gap: 10px;
     opacity: 0.5;
+}
+
+
+@media (max-width: 650px) {
+    .footer {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+
+        &__contact {
+            gap: 20px;
+        }
+
+        &__info {
+            width: 100%;
+        }
+    }
 }

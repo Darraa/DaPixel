@@ -31,3 +31,19 @@
         width: 36%;
     }
 }
+
+@media (max-width: 768px) {
+    .articles__item:nth-child(3) {
+        width: 37%;
+    }
+}
+
+@media (max-width: 428px) {
+    .articles {
+
+        &__item,
+        &__item:nth-child(3) {
+            width: 75%;
+        }
+    }
+}

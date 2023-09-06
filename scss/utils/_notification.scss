@@ -1,5 +1,6 @@
 .notification {
     display: none;
+
     &__wrapper {
         display: flex;
         flex-direction: column;
@@ -15,6 +16,6 @@
     }
 }
 
-.notification__active{
+.notification__active {
     display: flex;
 }

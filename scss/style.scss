@@ -2,16 +2,10 @@
 @import "utils/fonts";
 @import "utils/global";
 
-@import "components/header";
+@import "components/global/header";
 @import "utils/burger";
-@import "components/hero-page";
-@import "components/competentions";
-@import "components/meeting";
-@import "components/testimonials";
-@import "components/articles";
-@import "components/reason";
-@import "components/footer";
+@import "components/global/reason";
+@import "components/global/footer";
 
 @import "utils/modal";
 @import "utils/notification";
-@import "utils/adaptive";

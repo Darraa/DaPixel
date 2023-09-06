@@ -35,3 +35,49 @@
         }
     }
 }
+
+@media (max-width: 1024px) {
+    .testimonials {
+        &__content {
+            &-text p {
+                line-height: 40px;
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .testimonials {
+        &__content {
+            &-text {
+                p {
+                    font-size: 15px;
+                    line-height: 25px;
+                }
+
+                span {
+                    font-size: 15px;
+                    line-height: 20px;
+                }
+            }
+        }
+    }
+}
+
+
+@media (max-width: 428px) {
+    .testimonials {
+        &__content {
+            flex-wrap: wrap;
+        }
+    }
+}
+
+@media (max-width: 376px) {
+    .testimonials {
+        &__content {
+            gap: 10px;
+            width: 80%;
+        }
+    }
+}

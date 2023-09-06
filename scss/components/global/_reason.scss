@@ -18,3 +18,27 @@
         }
     }
 }
+
+@media (max-width: 768px) {
+    .reason {
+        padding-top: 20px;
+        gap: 20%;
+
+        &__content {
+            p {
+                line-height: 25px;
+            }
+        }
+    }
+}
+
+@media (max-width: 650px) {
+    .reason {
+        flex-direction: column;
+        gap: 5px;
+
+        &__content {
+            width: 80%;
+        }
+    }
+}
